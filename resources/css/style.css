@@ -1,0 +1,31 @@
+body{
+
+}
+
+
+nav {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-content: center;
+  padding-left: 20px;
+}
+
+nav span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 20px;
+  flex-wrap: nowrap;
+}
+
+
+nav a {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 10px;
+  padding-right: 10px;
+}
